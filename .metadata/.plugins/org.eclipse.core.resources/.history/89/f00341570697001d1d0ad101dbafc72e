@@ -1,0 +1,23 @@
+package test;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,sum=0,temp,r,n = 0;
+		a=454;
+		System.out.println("enter the number");
+		temp=a;
+		while(n>0) {
+			r=temp%10;
+			temp=temp/10;
+			sum=(sum*10)+temp;
+		}
+		if(a==sum)
+		{
+		System.out.println("its a PL number");
+		}
+		System.out.println("its not a PL number");
+	}
+
+}

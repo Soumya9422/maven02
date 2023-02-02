@@ -1,0 +1,21 @@
+package test;
+
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// add 2 numbers
+		int a , b , c;
+		Scanner sc = new Scanner(System.in);  
+		System.out.println("Enter 1st number");
+		a = sc.nextInt(); 
+		//System.out.println("Enter the 2nd number");
+		//b = sc.nextInt(); 
+		//c= a+b;
+		//System.out.println("sum of 2 number"+c);
+		While(a>0)
+		
+}
+}

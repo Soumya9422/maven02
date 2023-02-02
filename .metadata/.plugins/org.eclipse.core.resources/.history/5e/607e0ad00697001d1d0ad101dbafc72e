@@ -1,0 +1,14 @@
+package test;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// add 2 numbers
+		int a , b , c;
+		System.out.println("Enter 1st number"+a);
+		System.out.println("Enter the 2nd number"+b);
+		c= a+b;
+		System.out.println("sum of 2 number"c);
+
+}
